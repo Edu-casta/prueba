@@ -1,19 +1,17 @@
 class Calculadora:
     @staticmethod
-    def suma(num1, num2):
-        return num1 + num2
+    def suma(num):
+        return sum(num)
     
     @staticmethod
     def resta(num1, num2):
         return num1 - num2
     
     @staticmethod
-    def multiplicación(num1, num2):
+    def multiplicacion(num1, num2):
         return num1 * num2
 
     @staticmethod
-    def multiplicación(num1, num2):
+    def division(num1, num2):
         return num1 / num2
 
-num1 = Calculadora.suma(4, 8)
-print(num1)
